@@ -5,7 +5,6 @@
   "main": "app.ts",
   "scripts": {
     "dev": "ts-node-dev --env-file .env app.ts",
-    "dev1": "ts-node-dev i.ts",
     "database": "docker run -p 27017:27017 weshigbee/docker-mongo-sample-datasets",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
